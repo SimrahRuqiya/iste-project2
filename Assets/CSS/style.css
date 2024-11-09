@@ -1,7 +1,8 @@
-.header{
+header{
     width: 100%;
     background-color: black;
     height: 100px;
+    text-align: center;
     padding-bottom: 110px;
 }
 

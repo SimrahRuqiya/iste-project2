@@ -15,18 +15,16 @@ header{
 
 .Nav{
     text-align: center;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
 }
 
 .Nav-item{
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 80px;
     font-size: 20px;
     font-weight: bold;
-
+    padding: 60px;
 }
 
 footer {

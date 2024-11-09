@@ -1,3 +1,10 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header{
     width: 100%;
     background-color: black;
@@ -30,4 +37,14 @@ footer {
     background-color: black;
     color: white;
     border-top: 2px solid white;
+}
+
+main{
+    background: linear-gradient(to bottom, #000000, #000025, #000032, #00003d, #000350, #001a63);
+    min-height: 100vh;
+    color: white;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }

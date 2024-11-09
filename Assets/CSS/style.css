@@ -21,3 +21,8 @@ header{
     font-weight: bold;
 
 }
+
+#news {
+    display: flex;
+    justify-content: space-between;
+}

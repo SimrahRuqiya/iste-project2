@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    padding-bottom: 110px;
+}
+
+.Nav{
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.Nav-item{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 85px;
+    font-size: 20px;
+    font-weight: bold;
+
+}

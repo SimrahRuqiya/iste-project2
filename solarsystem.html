@@ -7,8 +7,43 @@
     <link rel="icon" href="/Assets/Media/webicon_logo.png">
     <title>SpacePulse | Solar System </title>
     <style>
-        
+       .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+            grid-template-rows: repeat(5, 1fr); /* 5 equal rows */
+            gap: 20px; /* Gap between grid items */
+            /* height: 100vh; Full viewport height */
+        }
 
+        /* text, video, nav, aside */
+        .item {
+            align-content: center;
+            text-align: center;
+        }
+
+        .text {
+            grid-column: 1 / 6; 
+            grid-row: 1; 
+        }
+
+        .video {
+            grid-column: 1 / 6; 
+            grid-row: 2 / 4; 
+        }
+
+        #nav {
+            grid-column: 1; 
+            grid-row: 4 / 6; 
+            background-color: dimgray;
+            border-radius: 50px;
+        }
+
+        #aside {
+            grid-column: 2 / 6; 
+            grid-row: 4 / 6;
+            background-color: dimgray;
+            border-radius: 50px;
+        }
     </style>
 </head>
 <body>
@@ -22,9 +57,22 @@
             <a href="index_A2.html" class="Nav-item">References</a>
         </div>
     </header>
-    <main>
-        
+    <main class="grid">
+        <div class="item text">Our solar system is an amazingly complex ensemble of the celestially bound objects circling around the Sun, a medium-sized star. These constitute eight planets that are quite different in structure, size, and distances from the Sun. Opposite to the inner rocky planets are the outer gas giants: Jupiter, Saturn, Uranus, and Neptune. All these put up a dynamic system surrounded by moons, asteroids, and comets, somewhat endlessly mysterious.</div>
+        <div class="item video"><iframe width="800" height="460" style="border: 3px solid white;" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="The Planets In Our Solar System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="item" id="nav">
+            <iframe src="Planets/planets_list.html" name="left_frame" height="100%" frameBorder="0"></iframe>
+        </div>
+        <div class="item" id="aside">
+            <iframe src="Planets/mercury.html" name="right_frame" height="400px" frameBorder="0"></iframe>
+        </div>
+        <br><br>
     </main>
-    
+    <noframes>
+        Your browser does not support frames.
+    </noframes>
+    <footer>
+        Copyright &copy; - Hashim Hyder, Jason Panganiban, Simrah Shabandri
+    </footer>
 </body>
 </html>

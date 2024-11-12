@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
 }
 
 header{
@@ -22,7 +23,7 @@ header{
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: bold;
     padding: 60px;
 }
@@ -42,7 +43,7 @@ main{
     min-height: 100vh;
     color: white;
     padding-top: 80px;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding-left: 80px;
     padding-right: 80px;
 }
